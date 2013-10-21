@@ -64,3 +64,13 @@ git config --global color.diff auto
 git config --global color.status auto
 ```
 
+```sh
+git clone git://git.kernel.org/pub/scm/git/git.git
+
+```
+```sh
+cd git/contrib/completion/
+cp git-prompt.sh ~/.git-prompt.sh
+cp git-completion.bash ~/.git-completion.sh
+
+```
