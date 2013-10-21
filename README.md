@@ -46,3 +46,10 @@ git config --global alias.df "diff"
 ```sh
 sudo apt-get install meld
 ```
+###Chceck changes
+```sh
+git config --global diff.tool meld
+git difftool
+usage: git diff [--no-index] <path> <path>
+
+```
