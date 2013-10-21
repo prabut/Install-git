@@ -49,7 +49,18 @@ sudo apt-get install meld
 ###Chceck changes
 ```sh
 git config --global diff.tool meld
+
 git difftool
+
 usage: git diff [--no-index] <path> <path>
 
 ```
+###Change color of different
+```sh
+git config --global color.branch auto
+
+git config --global color.diff auto
+
+git config --global color.status auto
+```
+
