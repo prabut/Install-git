@@ -13,15 +13,13 @@ git config --global user.email "tprabucki@sigma.ug.edu.pl"
 
 git config --global core.autocrlf input
 
-git config --global core.autocrlf auto
-
 cat ~/.gitconfig
 
 [user]
 	name = Tomasz Prabucki
 	email = tprabucki@sigma.ug.edu.pl
 [core]
-	autocrlf = auto
+	autocrlf = input
 
 ```
 ###Some useful alias
